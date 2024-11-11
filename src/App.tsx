@@ -94,7 +94,7 @@ function App() {
               <div>
                 <h3 className="text-xl font-semibold mb-4">Skills</h3>
                 <ul className="grid grid-cols-2 gap-2">
-                  {['Node.js', 'Python', 'Java', 'SQL', 'NoSQL', 'RESTful APIs', 'GraphQL', 'Docker', 'Kubernetes', 'AWS'].map((skill) => (
+                  {['Node.js', 'Python', 'React', 'SQL', 'NoSQL', 'RESTful APIs', 'GraphQL', 'Docker'].map((skill) => (
                     <li key={skill} className="bg-gray-800 bg-opacity-50 backdrop-filter backdrop-blur-lg rounded-full px-3 py-1 text-sm border border-blue-400 text-blue-400">
                       {skill}
                     </li>
@@ -178,7 +178,7 @@ function App() {
 
       <footer className="bg-gray-800 bg-opacity-50 backdrop-filter backdrop-blur-lg py-6 relative z-10">
         <div className="container mx-auto px-6 text-center">
-          <p>&copy; {new Date().getFullYear()} YourName. All rights reserved.</p>
+          <p>&copy; {new Date().getFullYear()} Dawit Y H.. All rights reserved.</p>
         </div>
       </footer>
     </div>
